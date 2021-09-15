@@ -1,6 +1,6 @@
-// dllmain.cpp : Defines the entry point for the DLL application.
-#include "pch.h"
+#include <Windows.h>
 
+// Windows DLL boilerplate, doesn't need to be changed
 BOOL APIENTRY DllMain( HMODULE hModule,
                        DWORD  ul_reason_for_call,
                        LPVOID lpReserved
