@@ -81,7 +81,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <TargetExt>.xpl</TargetExt>
-    <OutDir>$(SolutionDir)$(Configuration)\$(ProjectName)\$(PlatformTarget)</OutDir>
+    <OutDir>$(SolutionDir)$(Configuration)\$(ProjectName)\64</OutDir>
     <TargetName>win</TargetName>
     <IncludePath>D:\Jacinto\Libs\XPSDK303\SDK\CHeaders\XPLM;$(IncludePath)</IncludePath>
     <LibraryPath>D:\Jacinto\Libs\XPSDK303\SDK\Libraries\Win;$(LibraryPath)</LibraryPath>
@@ -97,7 +97,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.xpl</TargetExt>
-    <OutDir>$(SolutionDir)$(Configuration)\$(ProjectName)\$(PlatformTarget)</OutDir>
+    <OutDir>$(SolutionDir)$(Configuration)\$(ProjectName)\64</OutDir>
     <TargetName>win</TargetName>
     <IncludePath>D:\Jacinto\Libs\XPSDK303\SDK\CHeaders\XPLM;$(IncludePath)</IncludePath>
     <LibraryPath>D:\Jacinto\Libs\XPSDK303\SDK\Libraries\Win;$(LibraryPath)</LibraryPath>
